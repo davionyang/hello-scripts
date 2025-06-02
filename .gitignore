@@ -4,6 +4,9 @@
 *.swp
 *.swo
 *~
+.sublime-project
+.sublime-workspace
+*.code-workspace
 
 # OS generated files
 .DS_Store
@@ -13,10 +16,173 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+Desktop.ini
 
 # Temporary files
 *.tmp
 *.temp
+*.bak
+*.backup
+*.orig
+
+# Log files
+*.log
+logs/
+*.log.*
+
+# Environment and configuration files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+config.local.*
+secrets.yml
+secrets.yaml
+
+# Ruby specific
+*.gem
+.bundle/
+vendor/bundle/
+.ruby-version
+.ruby-gemset
+Gemfile.lock
+.rspec
+coverage/
+.yardoc/
+doc/
+.yard/
+
+# Python specific
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.venv/
+venv/
+ENV/
+env/
+.env/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Node.js specific
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+.pnp.*
+.yarn/
+
+# Java specific
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+target/
+.gradle/
+build/
+.gradletasknamecache
+
+# Go specific
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Rust specific
+target/
+Cargo.lock
+**/*.rs.bk
+
+# C/C++ specific
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+*.app
+
+# Build and distribution directories
+build/
+dist/
+out/
+bin/
+obj/
+release/
+debug/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist/
+.serverless/
+
+# Test artifacts
+.nyc_output/
+coverage/
+*.lcov
+test-results/
+junit.xml
+
+# Documentation build artifacts
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+docs/_build/
+site/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
 
 # Browser screenshots and automation artifacts
 .browser_screenshots/
+screenshots/
+playwright-report/
+test-results/
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock
+.lock-wscript
+.grunt
+.eslintcache
+.stylelintcache
