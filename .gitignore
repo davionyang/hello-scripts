@@ -17,3 +17,6 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Browser screenshots and automation artifacts
+.browser_screenshots/
